@@ -1,0 +1,12 @@
+{
+  "label": "Non Cash Item",
+  "position": 3,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Non Cash Item",
+    "description": "Learn how to create, confirm, cancel, and assign Non Cash Item orders using Authentic Online.",
+    "slug": "/non-cash-item"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "Float Order",
+  "position": 2,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Float Order",
+    "description": "Learn how to create, cancel and assign Float Orders."
+  }
+}

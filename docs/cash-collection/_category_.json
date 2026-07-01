@@ -1,0 +1,12 @@
+{
+  "label": "Cash Collection",
+  "position": 2,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Cash Collection",
+    "description": "Learn how to create, confirm, cancel, and assign Cash Collection orders using Authentic Online.",
+    "slug": "/cash-collection"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "label": "Order Change",
+  "position": 1,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Order Change",
+    "description": "Learn how to create, confirm, cancel, and assign Order Change orders using Authentic Online.",
+    "slug": "/order-change"
+  }
+}

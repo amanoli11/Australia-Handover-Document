@@ -1,0 +1,12 @@
+{
+  "label": "Cash Order",
+  "position": 3,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Cash Order",
+    "description": "Learn how to create, confirm, cancel, and assign Cash Order orders using Authentic Online.",
+    "slug": "/cash-order"
+  }
+}

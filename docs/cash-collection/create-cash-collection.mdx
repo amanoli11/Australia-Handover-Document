@@ -1,0 +1,118 @@
+---
+title: Create Cash Collection
+sidebar_position: 2
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Create Cash Collection
+
+This guide covers **Steps 1–21** for creating a new cash collection order, adding bags, and finalizing the submission.
+
+:::info 
+Note
+This guide demonstrates a **Scheduled Pick Up**. The workflow steps for an **Ad-Hoc** pickup are identical.
+:::
+
+---
+
+## Phase 1: Initiating the Collection
+
+### Step 1: Open Cash Collection
+Navigate to the sidebar and open the <span class="badge badge--primary">Cash Collection</span> module.
+
+![Step 1](../../static/img/cash-collection/create/step-01.jpeg)
+
+### Step 2: Create New Entry
+Click the **New Cash Collection** button in the top right corner.
+
+![Step 2](../../static/img/cash-collection/create/step-02.jpeg)
+
+### Step 3: Select Pickup Type
+Select **Scheduled Pick Up** from the options provided.
+
+![Step 3](../../static/img/cash-collection/create/step-03.jpeg)
+
+---
+
+## Phase 2: Adding Bags to the Collection
+
+<Tabs>
+  <TabItem value="first-bag" label="🛍️ Bag 1: Primary Entry" default>
+    <h3>Step 4: Enter Bag ID</h3>
+    <p>Input the primary <strong>Bag ID</strong> barcode number and click <strong>Next</strong>.</p>
+    <img src={require('../../static/img/cash-collection/create/step-04.jpeg').default} alt="Step 4" />
+
+    <h3>Step 5: Location Selection</h3>
+    <p>Select the verified pickup location from the dropdown list.</p>
+    <img src={require('../../static/img/cash-collection/create/step-05.jpeg').default} alt="Step 5" />
+
+    <h3>Step 6: Amount & Date</h3>
+    <p>Enter the exact monetary amount and select the scheduled pickup date.</p>
+    <img src={require('../../static/img/cash-collection/create/step-06.jpeg').default} alt="Step 6" />
+
+    <h3>Step 7: Submit Bag</h3>
+    <p>Click <strong>Submit Bag</strong> to queue it into the order.</p>
+    <img src={require('../../static/img/cash-collection/create/step-07.jpeg').default} alt="Step 7" />
+
+    <h3>Step 8 & 9: Confirm & Review</h3>
+    <p>Confirm the submission pop-up and review the bag in your current list.</p>
+    <img src={require('../../static/img/cash-collection/create/step-08.jpeg').default} alt="Step 8" />
+  </TabItem>
+  
+  <TabItem value="additional-bags" label="➕ Bag 2+: Multi-Bag Entry">
+    <h3>Step 10 & 11: Add Another Bag</h3>
+    <p>If required, click <strong>Add Another Bag</strong> and enter the next unique <strong>Bag ID</strong>.</p>
+    <img src={require('../../static/img/cash-collection/create/step-10.jpeg').default} alt="Step 10" />
+
+    <h3>Step 12: Fixed Logistics Entry</h3>
+    <p>Enter the amount and log date. <em>Note: The pickup date and location remain fixed to match the primary bag.</em></p>
+    <img src={require('../../static/img/cash-collection/create/step-12.jpeg').default} alt="Step 12" />
+
+    <h3>Step 13 & 14: Confirm Additional Submission</h3>
+    <p>Confirm the entry to view your updated, consolidated multi-bag overview list.</p>
+    <img src={require('../../static/img/cash-collection/create/step-13.jpeg').default} alt="Step 13" />
+  </TabItem>
+</Tabs>
+
+---
+
+## Phase 3: Order Finalization & Confirmation
+
+### Step 15: Confirm All Bags
+Review the consolidated summary table and click **Confirm All Bags**.
+
+![Step 15](../../static/img/cash-collection/create/step-15.jpeg)
+
+### Step 16 & 17: Docket & Order Progress
+Optionally print the collection docket for physical records, then click continue to proceed to order confirmation.
+
+![Step 16](../../static/img/cash-collection/create/step-16.jpeg)
+
+### Step 18: Complete Order
+Click the **Complete Order** action button to officially submit the request to the system.
+
+![Step 18](../../static/img/cash-collection/create/step-18.jpeg)
+
+---
+
+## Phase 4: Post-Submission Management
+
+:::success
+Order Created Successfully
+The system has logged your cash collection request and assigned an active tracking state.
+:::
+
+### Step 19 & 20: View Active Order
+Locate your newly created order showing an active status in the primary dashboard list.
+
+![Step 19](../../static/img/cash-collection/create/step-19.jpeg)
+
+### Step 21: Post-Submission Actions
+Use the **Finish** interactive action menu to manage the order lifecycle:
+* <span class="badge badge--primary">View</span> detailed manifest logistics.
+* <span class="badge badge--secondary">Print</span> physical manifests/dockets.
+* <span class="badge badge--danger">Cancel</span> the order if adjustments are required.
+
+![Step 21](../../static/img/cash-collection/create/step-21.jpeg)

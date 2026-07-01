@@ -1,0 +1,42 @@
+---
+sidebar_position: 1
+title: Introduction
+---
+
+# Introduction
+
+Welcome to the **Cash-in-Transit (CIT) Handheld Application** documentation. This application serves as the core operational interface for field personnel to manage secure cash logistics, maintain an absolute chain of custody, and log transport operations in real time.
+
+---
+
+## Purpose & Scope
+
+The CIT application is designed to guide armored guards and field operators through foolproof workflows for on-site cash processing. By enforcing strict digital handshakes, scanning protocols, and state verifications, the platform ensures that every dollar is accounted for from vault to destination.
+
+This documentation covers the two core transactional modules:
+1. **[Cash Collection Process](./cash-collection)** – Tracking and verifying cash intake from client locations.
+2. **[Cash Order Process](./cash-delivery)** – Managing secure custody handovers and cash deliveries to clients.
+
+---
+
+## Device Management & Compliance
+
+To maintain bank-grade security, all handheld terminals running the CIT application are strictly regulated over-the-air using the **Relution Mobile Device Management (MDM)** platform. 
+
+### Enforced Security Standards
+
+- **Relution Home Layout Restrictions:** Devices are provisioned with a locked home screen layout via Relution. This ensures that only authorized enterprise applications are visible and accessible, preventing unauthorized configuration changes or unapproved app usage.
+- **System Integrity:** Device settings, security payloads, and app distribution are managed centrally. User modification of key system attributes is locked down to maintain a consistent operational baseline.
+
+:::danger Critical Notice: Connectivity & GPS
+**Always keep Cellular Data (Internet) and Location Services (GPS) turned ON.** 
+The CIT application relies on real-time location validation for step-by-step verification, and switching off these services will block your progress during scans.
+:::
+
+---
+
+## Document Navigation
+
+- Navigate to **Cash Collection Process** to review step-by-step intake workflows.
+- Navigate to **Cash Order Process** to review distribution and delivery workflows.
+- Refer to the **Troubleshooting Guide** if you encounter hardware scanning issues, camera permission blocks, or network latency in the field.

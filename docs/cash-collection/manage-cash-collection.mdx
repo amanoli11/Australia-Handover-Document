@@ -1,0 +1,50 @@
+---
+title: Manage Cash Collection
+sidebar_position: 3
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Manage Cash Collection
+
+This guide covers **Steps 22–25** for administrative management, printing documentation, and handling order cancellations within the Cash Collection dashboard.
+
+---
+
+## Action Paths: Print vs. Cancel
+
+Once an order is created, you can perform immediate secondary operations from the active order panel. Select your required action below:
+
+<Tabs>
+  <TabItem value="print" label="🖨️ Option A: Print Docket (Step 22)" default>
+    <p>To generate physical paperwork for drivers or auditing records, select the target order and click <strong>Print Docket</strong>.</p>
+    <img src={require('../../static/img/cash-collection/manage/step-22.jpeg').default} alt="Step 22" />
+  </TabItem>
+  
+  <TabItem value="cancel" label="❌ Option B: Initiate Cancellation (Step 23)">
+    <p>If an order was created in error or needs to be voided, click the <strong>Cancel Order</strong> action button from the management dropdown.</p>
+    <img src={require('../../static/img/cash-collection/manage/step-23.jpeg').default} alt="Step 23" />
+  </TabItem>
+</Tabs>
+
+---
+
+## Processing Cancellations
+
+If you chose to cancel the order in the previous step, follow these final verification procedures to clear it from the active queue.
+
+:::danger 
+Critical Action
+Canceling a cash collection order is **irreversible**. Ensure you are targeting the correct Order ID before confirming.
+:::
+
+### Step 24: Confirm Cancellation
+A confirmation modal will appear. Review the warnings and click <span class="badge badge--danger">Confirm Cancellation</span> to finalize the void request.
+
+![Step 24](../../static/img/cash-collection/manage/step-24.jpeg)
+
+### Step 25: Return to Order List
+After receiving the successful cancellation banner alert, the system will automatically refresh. Return to the main dashboard list to verify the order status has updated accordingly.
+
+![Step 25](../../static/img/cash-collection/manage/step-25.jpeg)
