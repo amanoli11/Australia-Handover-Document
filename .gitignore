@@ -1,0 +1,11 @@
+# Remove the leading slashes
+node_modules/
+build/
+.docusaurus/
+.cache-loader/
+
+# Keep everything else the same
+.env
+.env.*
+.DS_Store
+.vscode/
