@@ -44,7 +44,7 @@ const config: Config = {
       "classic",
       {
         docs: {
-          // exclude: ["**/hidden/**"],
+          exclude: ["**/cash-collection/**"],
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.

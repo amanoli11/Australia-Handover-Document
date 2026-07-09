@@ -1,0 +1,111 @@
+---
+title: Cash Collection
+sidebar_position: 2
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Cash Collection: CIT Portal Assignment
+
+This guide covers **Phase 1-3** for managing Cash In Transit (CIT) portal assignments, filtering orders, and creating runsheets.
+
+:::tip 
+Prerequisites
+Ensure you have the necessary **Dispatcher** or **Operations Manager** permissions before attempting to assign runs.
+:::
+
+---
+
+## Phase 1: Locating & Filtering Orders
+
+### Step 1: Access the Portal
+Open the **CIT Portal** and log in with your credentials.
+
+![Step 27](../static/img/cash-collection/cit/step-27.jpeg)
+
+### Step 2: Navigate to Orders and Apply Filters
+From the main sidebar navigation dashboard, go to <span class="badge badge--secondary">Order Management</span> and apply the relevant filters to locate the desired order(s).
+Use the date picker tool to apply the relevant **Date Filter** based on your target pickup date.
+
+![Step 30](../static/img/cash-collection/cit/step-30.jpeg)
+
+### Step 3: View the Records
+After assigning the filters you can see the records like this. One is the <span class="badge badge--warning">Unassigned</span> order and the other is the <span class="badge badge--success">Assigned</span> order.
+
+<div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px', justifyContent: 'center' }}>
+  <div style={{ flex: '1 1 300px', minWidth: '250px' }}>
+    <img src={require('../static/img/cash-collection/cit/step-31.png').default} alt="Step 31" style={{ width: '100%', height: 'auto' }} />
+  </div>
+  <div style={{ flex: '1 1 300px', minWidth: '250px' }}>
+    <img src={require('../static/img/cash-collection/cit/order-management-unassigned.png').default} alt="Order Management Unassigned" style={{ width: '100%', height: 'auto' }} />
+  </div>
+</div>
+---
+
+## Phase 2: Creating and Assigning the Run
+
+### Step 1: Select and Move Order
+Check the box next to the desired order(s) and click the **Move** button.
+
+![Step 32](../static/img/cash-collection/cit/step-32.jpeg)
+
+### Step 2: Allocate to a Run
+From the modal prompt, choose the destination to move the selected order into an active **Run**.
+
+![Step 33](../static/img/cash-collection/cit/step-33.jpeg)
+
+
+
+{/* ### Step 3: Open Run Assignment
+Navigate to the <span class="badge badge--primary">Run Assignment</span> tab and apply your filters to find your recently moved run.
+
+![Step 34](../static/img/cash-collection/cit/step-34.jpeg) */}
+
+
+
+### Step 4: Select the Active Run
+Navigate to the <span class="badge badge--primary">Run Assignment</span> tab and apply your filters to find your recently moved run.
+Locate and select the specific **Run** from the filtered list and select **Move**.
+
+![Step 35](../static/img/cash-collection/cit/step-35.jpeg)
+
+### Step 5: Assign User, Vehicle & Generate Runsheet
+Assign the appropriate **User** (Driver/Guard) and **Vehicle**, then click the **Move to Runsheet** action button.
+
+![Step 36](../static/img/cash-collection/cit/step-36.jpeg)
+
+---
+
+## Phase 3: Managing the Runsheet
+
+:::success 
+Runsheet Created Successfully
+The runsheet is now live and can be accessed by field personnel or drivers assigned to the vehicle.
+:::
+
+### Step 1: Confirmation
+Review the newly created **Runsheet** details on your screen to ensure asset fields are correct.
+
+![Step 37](../static/img/cash-collection/cit/step-37.jpeg)
+
+### Step 2-4: Available Management Actions
+
+Use the interactive options below to see how to handle the active runsheet.
+
+<Tabs>
+  <TabItem value="edit" label="✏️ Edit Run (Step 2)" default>
+    <p>Click <strong>Edit</strong> if you need to dynamically alter the assigned personnel, adjust the vehicle, or update the scheduled execution date.</p>
+    <img src={require('../static/img/cash-collection/cit/step-39.jpeg').default} alt="Step 39" />
+  </TabItem>
+  
+  <TabItem value="status" label="👁️ View Status (Step 3)" default>
+    <p>Click <strong>View Status</strong> at any time to monitor the real-time progression and individual order lifecycles within the run.</p>
+    <img src={require('../static/img/cash-collection/cit/step-40.jpeg').default} alt="Step 40" />
+  </TabItem>
+
+  <TabItem value="delete" label="🗑️ Delete Run (Step 4)">
+    <p>If a run is canceled or needs a complete rebuild, use the <strong>Delete</strong> action to dissolve the runsheet and return orders back to the <em>Unassigned</em> pool.</p>
+    <img src={require('../static/img/cash-collection/cit/step-38.jpeg').default} alt="Step 38" />
+  </TabItem>
+</Tabs>
