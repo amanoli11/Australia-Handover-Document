@@ -44,7 +44,7 @@ const config: Config = {
       "classic",
       {
         docs: {
-          exclude: ["**/cash-collection/**"],
+          exclude: ["**/cash-collection/**", "**/cash-order/order-change/_create-order-change.mdx**"],
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
